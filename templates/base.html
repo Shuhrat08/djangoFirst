@@ -5,13 +5,13 @@
     <title>sariq.dev</title>
 </head>
 <body>
-    <header>
-        <a href="{% url 'home' %} }">Bosh sahifa</a>
-        <a href="{% url 'about' %}">Saytimiz haqida</a>
-    </header>
+<header>
+    <a href="{% url 'home' %}">Bosh sahifa</a> |
+    <a href="{% url 'about' %}">Saytimiz haqida</a>
+</header>
 
-    {% block contend %}
-    {% endblock contend %}
+{% block content %}
+{% endblock content %}
 
 </body>
 </html>
